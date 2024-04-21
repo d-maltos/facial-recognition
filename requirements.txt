@@ -1,6 +1,8 @@
-pillow
-opencv
+tk
 numpy
-pandas
-keras
-tkinter
+Pillow
+imutils
+h5py
+tk
+opencv-python==4.2.0.34
+opencv-contrib-python==4.2.0.34

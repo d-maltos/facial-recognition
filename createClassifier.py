@@ -17,7 +17,6 @@ from PIL import Image
 ##############################################################################################
 
 def trainClassifier(name):
-    
     # Define our path to custom dataset in the data folder
     path = os.path.join(os.getcwd(), "data", name)
 

@@ -16,10 +16,8 @@ import os
 ##############################################################################################
 
 def datasetCapture(name):
-    
     # Define the filepath for the images to be saved to
     path = "./data/" + name 
-    
     numImages = 0
     
     # Intialize face detector using haar cascade classfier, 
@@ -30,7 +28,7 @@ def datasetCapture(name):
     except:
         print('Directory Already Exists')
     
-    # 
+    # Start video capture
     vidCapture = cv2.VideoCapture(0)
     
     while True:
@@ -57,8 +55,7 @@ def datasetCapture(name):
             break
         
     cv2.destroyAllWindows()
-    
     return numImages   
-        
+
     
 
