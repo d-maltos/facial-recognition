@@ -26,5 +26,7 @@ python app.py
 This command launches the main application window, where you can register new users, capture datasets for training, and perform facial recognition through the integrated webcam interface.
 
 ## Technologies Used
-Python and many of its powerful libraries for data science, machine learning/deep learning. Heavily relying on the OpenCV library.
+* Python: A versatile programming language ideal for rapid application development and scripting in many contexts including data science and machine learning.
+* OpenCV (Open Source Computer Vision Library): A highly optimized library focused on real-time applications. Used in this project for its robust tools in handling image processing and facial recognition tasks.
+* Tkinter: A python GUI (Graphic User Interface) library, used for building the interactive components of the application.
 
