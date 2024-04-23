@@ -1,7 +1,7 @@
 ##############################################################################################
 #                            Dylan Maltos | Trevor Christian                                 #
 #                                createClassifier.py                                         #
-#  Contains method to train a custom classifier to a beable to recognize a face from dataset #
+#  Contains method to create and train a custom classifier to recognize a face from a dataset #
 ##############################################################################################
 
 ##############################################################################################
@@ -13,7 +13,7 @@ import os, cv2
 from PIL import Image
 
 ##############################################################################################
-#    Function trainClassifier(): Trains a custom classifier to recognize face from dataset   #
+#   Function trainClassifier(): Create and train a custom classifier for face from dataset   #
 ##############################################################################################
 
 def trainClassifier(name):

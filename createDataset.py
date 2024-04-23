@@ -12,7 +12,7 @@ import cv2
 import os
 
 ##############################################################################################
-#                     Function datasetCapture(): Starts video capture                        #
+#                 Function datasetCapture(): Captures and creates dataset                    #
 ##############################################################################################
 
 def datasetCapture(name):
