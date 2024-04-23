@@ -1,7 +1,7 @@
 ##############################################################################################
 #                            Dylan Maltos | Trevor Christian                                 #
 #                                createClassifier.py                                         #
-#  Contains method to create and train a custom classifier to recognize a face from a dataset #
+# Contains method to create and train a custom classifier to recognize a face from a dataset #
 ##############################################################################################
 
 ##############################################################################################
